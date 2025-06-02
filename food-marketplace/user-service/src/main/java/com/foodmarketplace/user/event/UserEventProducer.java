@@ -12,9 +12,9 @@ import java.util.UUID;
 @ApplicationScoped
 public class UserEventProducer {
 
-    @Inject
-    @Channel("user-events")
-    Emitter<String> eventEmitter;
+    // @Inject
+    // @Channel("user-events")
+    // Emitter<String> eventEmitter;
 
     public void publishUserRegistered(UUID userId, String email, String role) {
         // Temporarily disabled - will implement after setting up Kafka
