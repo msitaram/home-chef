@@ -1,0 +1,36 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36mcom.foodmarketplace:menu-service[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding Menu Service 1.0.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquarkus-maven-plugin:3.8.1:dev[m [1m(default-cli)[m @ [36mmenu-service[0;1m ---[m
+[[1;34mINFO[m] Invoking resources:2.6:resources (default-resources) @ menu-service
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Invoking quarkus:3.8.1:generate-code (default) @ menu-service
+[[1;33mWARNING[m] [1m[[0;36mio.quarkus.bootstrap.resolver.maven.workspace.WorkspaceLoader[0;1m][m Module(s) under /app/food-marketplace/order-service will be handled as thirdparty dependencies because /app/food-marketplace/order-service/pom.xml does not exist
+[[1;33mWARNING[m] [1m[[0;36mio.quarkus.bootstrap.resolver.maven.workspace.WorkspaceLoader[0;1m][m Module(s) under /app/food-marketplace/review-service will be handled as thirdparty dependencies because /app/food-marketplace/review-service/pom.xml does not exist
+[[1;33mWARNING[m] [1m[[0;36mio.quarkus.bootstrap.resolver.maven.workspace.WorkspaceLoader[0;1m][m Module(s) under /app/food-marketplace/search-service will be handled as thirdparty dependencies because /app/food-marketplace/search-service/pom.xml does not exist
+[[1;33mWARNING[m] [1m[[0;36mio.quarkus.bootstrap.resolver.maven.workspace.WorkspaceLoader[0;1m][m Module(s) under /app/food-marketplace/notification-service will be handled as thirdparty dependencies because /app/food-marketplace/notification-service/pom.xml does not exist
+[[1;33mWARNING[m] [1m[[0;36mio.quarkus.bootstrap.resolver.maven.workspace.WorkspaceLoader[0;1m][m Module(s) under /app/food-marketplace/delivery-integration-service will be handled as thirdparty dependencies because /app/food-marketplace/delivery-integration-service/pom.xml does not exist
+[[1;33mWARNING[m] [1m[[0;36mio.quarkus.bootstrap.resolver.maven.workspace.WorkspaceLoader[0;1m][m Module(s) under /app/food-marketplace/payment-integration-service will be handled as thirdparty dependencies because /app/food-marketplace/payment-integration-service/pom.xml does not exist
+[[1;33mWARNING[m] [1m[[0;36mio.quarkus.bootstrap.resolver.maven.workspace.WorkspaceLoader[0;1m][m Module(s) under /app/food-marketplace/image-storage-service will be handled as thirdparty dependencies because /app/food-marketplace/image-storage-service/pom.xml does not exist
+[[1;34mINFO[m] Invoking compiler:3.11.0:compile (default-compile) @ menu-service
+[[1;34mINFO[m] Changes detected - recompiling the module! :input tree
+[[1;34mINFO[m] Compiling 5 source files with javac [debug target 17] to target/classes
+[[1;34mINFO[m] Invoking resources:2.6:testResources (default-testResources) @ menu-service
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /app/food-marketplace/menu-service/src/test/resources
+[[1;34mINFO[m] Invoking quarkus:3.8.1:generate-code-tests (default) @ menu-service
+[[1;33mWARNING[m] [1m[[0;36mio.quarkus.bootstrap.resolver.maven.workspace.WorkspaceLoader[0;1m][m Module(s) under /app/food-marketplace/order-service will be handled as thirdparty dependencies because /app/food-marketplace/order-service/pom.xml does not exist
+[[1;33mWARNING[m] [1m[[0;36mio.quarkus.bootstrap.resolver.maven.workspace.WorkspaceLoader[0;1m][m Module(s) under /app/food-marketplace/review-service will be handled as thirdparty dependencies because /app/food-marketplace/review-service/pom.xml does not exist
+[[1;33mWARNING[m] [1m[[0;36mio.quarkus.bootstrap.resolver.maven.workspace.WorkspaceLoader[0;1m][m Module(s) under /app/food-marketplace/search-service will be handled as thirdparty dependencies because /app/food-marketplace/search-service/pom.xml does not exist
+[[1;33mWARNING[m] [1m[[0;36mio.quarkus.bootstrap.resolver.maven.workspace.WorkspaceLoader[0;1m][m Module(s) under /app/food-marketplace/notification-service will be handled as thirdparty dependencies because /app/food-marketplace/notification-service/pom.xml does not exist
+[[1;33mWARNING[m] [1m[[0;36mio.quarkus.bootstrap.resolver.maven.workspace.WorkspaceLoader[0;1m][m Module(s) under /app/food-marketplace/delivery-integration-service will be handled as thirdparty dependencies because /app/food-marketplace/delivery-integration-service/pom.xml does not exist
+[[1;33mWARNING[m] [1m[[0;36mio.quarkus.bootstrap.resolver.maven.workspace.WorkspaceLoader[0;1m][m Module(s) under /app/food-marketplace/payment-integration-service will be handled as thirdparty dependencies because /app/food-marketplace/payment-integration-service/pom.xml does not exist
+[[1;33mWARNING[m] [1m[[0;36mio.quarkus.bootstrap.resolver.maven.workspace.WorkspaceLoader[0;1m][m Module(s) under /app/food-marketplace/image-storage-service will be handled as thirdparty dependencies because /app/food-marketplace/image-storage-service/pom.xml does not exist
+[[1;34mINFO[m] Invoking compiler:3.11.0:testCompile (default-testCompile) @ menu-service
+[[1;34mINFO[m] No sources to compile
+[[1;33mWARNING[m] Changed debug port to 38851 because of a port conflict
+Listening for transport dt_socket at address: 38851
