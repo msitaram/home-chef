@@ -1,0 +1,5 @@
+/app/food-marketplace/menu-service/src/main/java/com/foodmarketplace/menu/service/MenuService.java
+/app/food-marketplace/menu-service/src/main/java/com/foodmarketplace/menu/resource/MenuResource.java
+/app/food-marketplace/menu-service/src/main/java/com/foodmarketplace/menu/dto/DishCreateDto.java
+/app/food-marketplace/menu-service/src/main/java/com/foodmarketplace/menu/dto/DishResponseDto.java
+/app/food-marketplace/menu-service/src/main/java/com/foodmarketplace/menu/entity/Dish.java

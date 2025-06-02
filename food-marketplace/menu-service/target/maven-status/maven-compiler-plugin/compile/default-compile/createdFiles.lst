@@ -1,0 +1,15 @@
+com/foodmarketplace/menu/resource/MenuResource$CookMenuStats.class
+com/foodmarketplace/menu/entity/Dish.class
+com/foodmarketplace/menu/dto/DishResponseDto.class
+com/foodmarketplace/menu/entity/Dish$DishCategory.class
+com/foodmarketplace/menu/resource/MenuResource.class
+com/foodmarketplace/menu/resource/MenuResource$CuisineStats.class
+com/foodmarketplace/menu/entity/Dish$CuisineType.class
+com/foodmarketplace/menu/entity/Dish$DietaryType.class
+com/foodmarketplace/menu/entity/Dish$DishStatus.class
+com/foodmarketplace/menu/service/MenuService.class
+com/foodmarketplace/menu/dto/DishCreateDto.class
+com/foodmarketplace/menu/entity/Dish$DayOfWeek.class
+META-INF/panache-archive.marker
+com/foodmarketplace/menu/resource/MenuResource$MenuStats.class
+com/foodmarketplace/menu/entity/Dish$SpiceLevel.class
