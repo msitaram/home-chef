@@ -17,21 +17,24 @@ public class UserEventProducer {
     Emitter<String> eventEmitter;
 
     public void publishUserRegistered(UUID userId, String email, String role) {
-        String event = createEvent("USER_REGISTERED", userId, 
-            String.format("{\"email\":\"%s\",\"role\":\"%s\"}", email, role));
-        eventEmitter.send(event);
+        // Temporarily disabled - will implement after setting up Kafka
+        // String event = createEvent("USER_REGISTERED", userId, 
+        //     String.format("{\"email\":\"%s\",\"role\":\"%s\"}", email, role));
+        // eventEmitter.send(event);
     }
 
     public void publishUserStatusUpdated(UUID userId, String status) {
-        String event = createEvent("USER_STATUS_UPDATED", userId, 
-            String.format("{\"status\":\"%s\"}", status));
-        eventEmitter.send(event);
+        // Temporarily disabled - will implement after setting up Kafka
+        // String event = createEvent("USER_STATUS_UPDATED", userId, 
+        //     String.format("{\"status\":\"%s\"}", status));
+        // eventEmitter.send(event);
     }
 
     public void publishUserVerificationUpdated(UUID userId, String verificationStatus) {
-        String event = createEvent("USER_VERIFICATION_UPDATED", userId, 
-            String.format("{\"verificationStatus\":\"%s\"}", verificationStatus));
-        eventEmitter.send(event);
+        // Temporarily disabled - will implement after setting up Kafka
+        // String event = createEvent("USER_VERIFICATION_UPDATED", userId, 
+        //     String.format("{\"verificationStatus\":\"%s\"}", verificationStatus));
+        // eventEmitter.send(event);
     }
 
     private String createEvent(String eventType, UUID userId, String data) {
