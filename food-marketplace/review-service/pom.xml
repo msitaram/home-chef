@@ -51,10 +51,14 @@
       <artifactId>quarkus-micrometer</artifactId>
     </dependency>
     
-    <!-- In-Memory Event Bus (for local development) -->
+    <!-- Event-Driven Messaging -->
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-smallrye-reactive-messaging</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-smallrye-reactive-messaging-kafka</artifactId>
     </dependency>
     
     <!-- Validation -->
