@@ -1,6 +1,0 @@
-/app/food-marketplace/user-service/src/main/java/com/foodmarketplace/user/resource/UserResource.java
-/app/food-marketplace/user-service/src/main/java/com/foodmarketplace/user/dto/UserRegistrationDto.java
-/app/food-marketplace/user-service/src/main/java/com/foodmarketplace/user/service/UserService.java
-/app/food-marketplace/user-service/src/main/java/com/foodmarketplace/user/entity/User.java
-/app/food-marketplace/user-service/src/main/java/com/foodmarketplace/user/event/UserEventProducer.java
-/app/food-marketplace/user-service/src/main/java/com/foodmarketplace/user/dto/UserResponseDto.java
