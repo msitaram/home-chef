@@ -1,0 +1,11 @@
+com/foodmarketplace/user/entity/User$UserRole.class
+com/foodmarketplace/user/entity/User.class
+com/foodmarketplace/user/resource/UserResource.class
+com/foodmarketplace/user/entity/User$UserStatus.class
+com/foodmarketplace/user/entity/User$VerificationStatus.class
+com/foodmarketplace/user/service/UserService.class
+com/foodmarketplace/user/resource/UserResource$UserStats.class
+com/foodmarketplace/user/dto/UserResponseDto.class
+META-INF/panache-archive.marker
+com/foodmarketplace/user/event/UserEventProducer.class
+com/foodmarketplace/user/dto/UserRegistrationDto.class
