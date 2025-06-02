@@ -57,6 +57,16 @@
       <artifactId>quarkus-oidc</artifactId>
     </dependency>
     
+    <!-- Event-Driven Messaging -->
+    <dependency>
+      <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-smallrye-reactive-messaging</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-smallrye-reactive-messaging-kafka</artifactId>
+    </dependency>
+    
     <!-- Validation -->
     <dependency>
       <groupId>io.quarkus</groupId>
